@@ -60,6 +60,7 @@ const runQueries = async () => {
   let isRunning = true;
 
   while (isRunning) {
+    //keeps looping until the user chooses to quit, that's why after each action has ended this runQueries will run again and show the menu
     const start = prompt(
       `
 Welcome to the CRM
